@@ -10,11 +10,11 @@ setup(
     author='Julian van Meggelen',
     license='MIT',
     install_requires = [
-        'numpy==1.19.1',
-        'pandas==1.1.0'
+        'numpy>=1.19.1',
+        'pandas>=1.1.0'
         ],
     setup_requires=['pytest-runner'],
-    tests_require=['pytest==6.2.5'],
+    tests_require=['pytest>=6.2.5'],
     test_suite='npzigzag_tests',
     author_email = 'julianvanmeggelen@icloud.com',      
     url = 'https://github.com/julianvanmeggelen/npzigzag',  
